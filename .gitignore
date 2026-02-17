@@ -1,0 +1,16 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+coverage/
+.env
+*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test
+*.test.ts.snap

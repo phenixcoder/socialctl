@@ -1,0 +1,64 @@
+{
+  "name": "@phenixcoder/socialctl",
+  "version": "0.1.0",
+  "description": "CLI-first, GitOps-style social media control system",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "socialctl": "./dist/cli/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phenixcoder/socialctl.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/cli/index.js",
+    "lint": "eslint src --ext .ts",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "social-media",
+    "cli",
+    "gitops",
+    "automation",
+    "linkedin",
+    "twitter",
+    "x",
+    "instagram",
+    "publishing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "yaml": "^2.4.5",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "cosmiconfig": "^9.0.0",
+    "zod": "^3.23.8",
+    "date-fns": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.4.5",
+    "@typescript-eslint/eslint-plugin": "^7.13.0",
+    "@typescript-eslint/parser": "^7.13.0",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.12",
+    "ts-jest": "^29.1.5"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
