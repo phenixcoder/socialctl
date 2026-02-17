@@ -1,6 +1,6 @@
 {
   "name": "socialctl",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CLI-first, GitOps-style social media control system",
   "type": "module",
   "main": "dist/index.js",
