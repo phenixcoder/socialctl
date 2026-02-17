@@ -1,5 +1,5 @@
 {
-  "name": "@phenixcoder/socialctl",
+  "name": "socialctl",
   "version": "0.1.0",
   "description": "CLI-first, GitOps-style social media control system",
   "type": "module",
@@ -11,9 +11,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/phenixcoder/socialctl.git"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "scripts": {
     "build": "tsc",
