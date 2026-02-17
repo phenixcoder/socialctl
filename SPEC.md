@@ -466,21 +466,30 @@ No storage changes required.
 
 # 19. MVP Scope (Recommended)
 
-Phase 1:
+Phase 1: ✅ COMPLETE
 
 * Profile loader
 * SOPS decrypt integration
 * Post validate
-* Publish for 1 platform
+* CLI scaffolding
 * Receipt generation
 
-Phase 2:
+Phase 2: Meta Integration (Current)
 
-* Add second platform
-* Add activity polling
-* Add replies
+* Meta connector (Instagram + Facebook)
+  - Creator accounts
+  - Business accounts
+  - Facebook Pages
+* Activity polling
+* Replies
 
-Phase 3:
+Phase 3: Platform Expansion
+
+* Bluesky connector
+* LinkedIn connector
+* X (Twitter) connector
+
+Phase 4: Advanced Features
 
 * MCP server
 * Scheduling
