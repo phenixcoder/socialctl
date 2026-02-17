@@ -486,6 +486,7 @@ Phase 2: Meta Integration (Current)
 Phase 3: Platform Expansion
 
 * Bluesky connector
+* Reddit connector
 * LinkedIn connector
 * X (Twitter) connector
 
